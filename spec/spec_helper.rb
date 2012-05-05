@@ -1,0 +1,2 @@
+require 'graphlz'
+include Graphlz
