@@ -18,12 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-    graph = Graph.new
-    graph.add_node 3
-    graph.add_node 5
-    graph.connect(3, 5)
-    graph.connected?(3, 5) == true
-
+```ruby
+  graph = Graph.new
+  graph.add_node 3
+  graph.add_node 5
+  graph.connect(3, 5)
+  graph.connected?(3, 5) == true
+```
 ## Contributing
 
 1. Fork it
